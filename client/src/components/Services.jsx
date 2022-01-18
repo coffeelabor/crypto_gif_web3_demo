@@ -22,34 +22,35 @@ const Services = () => (
     <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
       <div className="flex-1 flex flex-col justify-start items-start">
         <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-          Services that we
+          Project Explanation
           <br />
-          continue to improve
         </h1>
         <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
-          The best choice for buying and selling your crypto assets, with the
-          various super friendly services we offer
+          This project is an demo of how the web can use the Ethereum Blockchain
+          <br />
+          Project based on youtube tutorial, which can be found here:
+          <a style={{color: 'skyblue'}} href="https://youtu.be/Wn_Kb3MR_cU">Source</a>
         </p>
       </div>
 
       <div className="flex-1 flex flex-col justify-start items-center">
         <ServiceCard
           color="bg-[#2952E3]"
-          title="Security gurantee"
+          title="First"
           icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="The frontend is created in react, but all data is passed through the blockchain which acts like a backend"
         />
         <ServiceCard
           color="bg-[#8945F8]"
-          title="Best exchange rates"
+          title="Second"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="A user would send a message to another account using their metamask account address The entire message is hashed and sent to the blockchain"
         />
         <ServiceCard
           color="bg-[#F84550]"
-          title="Fastest transactions"
+          title="Third"
           icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="Once the message is mined, it is confirmed and the response in the frontend is rendered"
         />
       </div>
     </div>
