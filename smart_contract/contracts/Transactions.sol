@@ -6,7 +6,7 @@ contract Transactions { //contract serves as a class
 
     event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
 
-    struct TransferStruct { //similar to an object
+    struct TransferStruct { 
         address sender;
         address receiver;
         uint amount;
